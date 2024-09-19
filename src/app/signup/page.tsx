@@ -1,5 +1,5 @@
 import Link from "next/link";
-import jkpizzarialogo from '/public/jkpizzarialogo.svg'
+import jkpizzarialogo from "./public/jkpizzarialogo.svg"
 import styles from "./page.module.scss";
 import Image from "next/image";
 
