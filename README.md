@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🖥️ – JK Pizzaria Web
+ 
+## Descrição
+A **JK Pizzaria** é uma aplicação desenvolvida em React utilizando Next.js para desenvolvimento das telas do sistema de gerenciamento de pedidos de uma pizzaria. Essa aplicação oferece funcionalidades como criar, listar, editar e remover pedidos de pizzas e demais produtos, facilitando o gerenciamento das operações do estabelecimento.
 
-## Getting Started
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Funcionalidades
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🔐 – **Sistema de Autenticação**: Tela de login e de cadastro para somente permitir entrada de usuários cadastrados.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 🛒 **Gerenciamento de Pedidos**: CRUD de pedidos com status e informações de clientes e dos produtos.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 🔗 **Integração com API **: Integração plataforma front-end web e com api desenvolvida com node.
 
-## Learn More
+- 📱 **Integração com APP **: Integração com aplicação mobile desenvolvida com react native para os garçons anotarem os pedidos.
 
-To learn more about Next.js, take a look at the following resources:
+## Tecnologias Utilizadas
+- **Node.js**: Ambiente de execução para usar o React.
+- **React.js**: Framework web minimalista e flexível para desenvolvimento de componentes.
+- **Next**: Banco de dados SQL para armazenar as informações de pedidos, de produtos e usuários.
+- **Sass**: Para estilização dos .
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Como rodar o projeto
+### Pré-requisitos
+- **Node.js** instalado (v14.x ou superior)
+- **Git** para clonar o repositório
+- **Yarn** para instalar bibliotecas e rodar o projeto(opcional)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Passo a passo
 
-## Deploy on Vercel
+1. **Clone o repositório**:
+    ```bash
+    git clone https://github.com/JOSE0193/jk-pizzaria-web
+    cd jk-pizzaria-web
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Instale as dependências**:
+    ```bash
+    npm install
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. **Inicie o servidor**:
+   ```bash
+        npm run dev
+        # or
+        yarn dev
+        # or
+        pnpm dev
+        # or
+        bun dev```
+
+Abra no seu navegador o link [http://localhost:3000](http://localhost:3000) para vizualizar o resultado.
